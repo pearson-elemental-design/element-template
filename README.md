@@ -23,3 +23,5 @@ dependencies:
 A blank template to start a new element definition. Edit this README.md file to define your element. See the [Element Definition Guide](www.example.com) for tips on writing a good definition.
 
 You can include images by adding them to the `/images` folder. Downloadable files (such as a `.sketch` or `.ai` mockup) should be stored in the `/downloads` folder.
+
+Making a change
