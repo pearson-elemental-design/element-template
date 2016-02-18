@@ -1,0 +1,30 @@
+---
+prose:
+    siteurl: 'https://ndarville.github.io'
+    metadata:
+        _drafts:
+            - name: layout
+              field:
+                  element: hidden
+                  value: post
+            - name: categories
+              field:
+                  element: hidden
+                  value: blog
+            - name: title
+              field:
+                  element: text
+            - name: date
+              field:
+                  element: hidden
+            - name: excerpt
+              field:
+                  element: text
+                  placeholder: Use 200 characters at most.
+            - name: id
+              field:
+                  element: hidden
+            - name: tags
+              field:
+                  element: hidden
+---
