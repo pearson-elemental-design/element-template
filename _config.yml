@@ -2,7 +2,7 @@
 prose:
     siteurl: 'https://ndarville.github.io'
     metadata:
-        _drafts:
+        "":
             - name: layout
               field:
                   element: hidden
