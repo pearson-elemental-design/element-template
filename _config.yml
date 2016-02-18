@@ -1,4 +1,3 @@
----
 prose:
     siteurl: 'https://ndarville.github.io'
     metadata:
@@ -27,4 +26,3 @@ prose:
             - name: tags
               field:
                   element: hidden
----
