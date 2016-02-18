@@ -14,7 +14,8 @@ implementations:
 dependencies: 
   - "ed-typography@v^1.0.0"
   - "ed-buttons@^1.0.0"
-prose: 
+prose:
+  rooturl: ./
   metadata: 
     "./": 
       - name: status
