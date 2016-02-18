@@ -1,34 +1,33 @@
 ---
-name: ed-example-element # an element name must be unique and start with 'ed-'
+name: "ed-example-element"
 status: Experimental
-people:
-  -
-    role: Product Owner
+people: 
+  - role: Product Owner
     name: John Doe
-    email: john.doe@pearson.com
-  -
-    role: Designer
+    email: "john.doe@pearson.com"
+  - role: Designer
     name: Eve Example
-    email: eve.example@pearson.com
-implementations:
-  -
-    type: Origami
-    url: http://origami.pearsoned.com/example
-dependencies:
-  - ed-typography@v^1.0.0
-  - ed-buttons@^1.0.0
-prose:
-  metadata:
-    "":
+    email: "eve.example@pearson.com"
+implementations: 
+  - type: Origami
+    url: "http://origami.pearsoned.com/example"
+dependencies: 
+  - "ed-typography@v^1.0.0"
+  - "ed-buttons@^1.0.0"
+prose: 
+  metadata: 
+    "": 
       - name: status
-        field:
+        field: 
           element: select
-          options:
+          options: 
             - name: One
               value: one
             - name: Two
               value: two
+published: true
 ---
+
 
 # element-template
 A blank template to start a new element definition. Edit this README.md file to define your element. See the [Element Definition Guide](www.example.com) for tips on writing a good definition.
