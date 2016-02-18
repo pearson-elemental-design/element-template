@@ -17,15 +17,17 @@ implementations:
 dependencies:
   - ed-typography@v^1.0.0
   - ed-buttons@^1.0.0
-metadata:
-  - name: status
-    field:
-      element: select
-      options:
-        - name: One
-          value: one
-        - name: Two
-          value: two
+prose:
+  metadata:
+    "":
+      - name: status
+        field:
+          element: select
+          options:
+            - name: One
+              value: one
+            - name: Two
+              value: two
 ---
 
 # element-template
