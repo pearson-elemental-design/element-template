@@ -16,7 +16,7 @@ dependencies:
   - "ed-buttons@^1.0.0"
 prose: 
   metadata: 
-    /: 
+    "./": 
       - name: status
         field: 
           element: select
