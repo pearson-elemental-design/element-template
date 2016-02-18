@@ -14,20 +14,37 @@ implementations:
 dependencies: 
   - "ed-typography@v^1.0.0"
   - "ed-buttons@^1.0.0"
-prose:
-  rooturl: ./
+prose: 
+  siteurl: "https://ndarville.github.io"
   metadata: 
-    "./": 
-      - name: status
+    ./: 
+      - name: layout
         field: 
-          element: select
-          options: 
-            - name: One
-              value: one
-            - name: Two
-              value: two
+          element: hidden
+          value: post
+      - name: categories
+        field: 
+          element: hidden
+          value: blog
+      - name: title
+        field: 
+          element: text
+      - name: date
+        field: 
+          element: hidden
+      - name: excerpt
+        field: 
+          element: text
+          placeholder: Use 200 characters at most.
+      - name: id
+        field: 
+          element: hidden
+      - name: tags
+        field: 
+          element: hidden
 published: true
 ---
+
 
 
 # element-template
